@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         String valor1 = etNum1.getText().toString();
         String valor2 = etNum2.getText().toString();
 
-        // Validar que no estén vacíos
+        // Validacion que no este vacios
         if(valor1.isEmpty() || valor2.isEmpty()){
             Toast.makeText(this, "Por favor ingresa ambos números", Toast.LENGTH_SHORT).show();
         } else {
